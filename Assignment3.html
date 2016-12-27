@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+		Session 3: CSS
+		Assignment – Design a HTML form and apply style.
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"> <!--Links External style sheet-->
+	</head>
+
+	<body>
+		<div id="bg" style="background-image: url('images/img5.jpg')">
+
+			<!-- First section begins -->
+			<p class="formheader"> Step 1: Your details</p>
+				<div class="formholder">
+					<form class="formarea">
+						Name:  <input type="text" name="name" placeholder="First and Last Name">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Email:  <input type="text" name="email" placeholder="example@domain.com">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Phone:  <input type="text" name="phone" placeholder="e.g. +919999888877">
+					</form>
+				</div>
+			
+			<!-- First section ends -->
+
+
+			<!-- Second section begins -->
+			<p class="formheader"> Step 2: Delivery details</p>
+				<div class="formholder">
+					<form class="formarea">
+						Address:  <input type="text" name="address">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Postal code:  <input type="text" name="postal">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Country:  <input type="text" name="country">
+					</form>
+				</div>
+
+			<!-- Second section ends -->
+
+
+			<!-- Third section begins -->
+
+			<p class="formheader"> Step 3: Card details</p>
+				<div class="formholder">
+					<form class="formarea">
+						Card type:  <input type="radio" name="card" value="visa"><img class="logo" src="images/img2.jpg">
+						<input type="radio" name="card" value="AmEx"><img class="logo" src="images/img3.jpg">
+						<input type="radio" name="card" value="Mastercard"><img class="logo" src="images/img4.jpg">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Card number:  <input type="text" name="cardnumber">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Security code:  <input type="text" name="securitycode">
+					</form>
+				</div>
+
+				<div class="formholder">
+					<form class="formarea">
+						Name on card:  <input type="text" name="nameoncard" placeholder="Exact name as on card">
+					</form>
+				</div>
+				<br/>
+			<!-- Third section ends -->
+
+				<button>Buy it!</button>
+
+		</div>
+	</body>
+
+</html>
